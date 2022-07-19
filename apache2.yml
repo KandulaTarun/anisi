@@ -6,3 +6,7 @@
     service:
       name: apache2
       state: restarted
+  - name: Installing ansible
+    shell: ./andible.sh
+  - name: installing docker
+    shell: ./docker.sh
